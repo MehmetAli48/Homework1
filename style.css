@@ -1,0 +1,136 @@
+body {margin:0;padding:0;}
+
+#hero {
+  position:relative;
+}
+
+#hero video {
+  height:100vh;
+  width:100%;
+  background-position:absolute;
+  z-index:10;
+  object-fit:cover;
+}
+
+#hero .content {
+  
+  height:100%;
+  width:100%;
+  z-index:20;
+  position:absolute;
+  top:0;
+  left:0;
+  text-align:center;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .content h1 {
+  color:#ff0000;
+  font-family:Arial,sans-serif;
+}
+
+#hero .content p {
+  font-size:18px;
+  color:#FFF;
+  font-family:Arial,sans-serif;
+}
+.navbar {
+  display: flex;
+  height: 50px;
+  padding: 32px 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black
+  
+
+}
+.banner .navbar h1{
+  text-align: center;
+  color: #FFF;
+}
+
+.logo {
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+#hero .content .container  {
+     width: 1000px;
+     height: 750px;
+     margin-bottom: 100px;
+     border: 1px solid #FFF ;
+     border-radius: 10px;
+     background:rgba(0,0,0,0.5);
+}
+#hero .conte {
+  
+  height:100%;
+  width:67%;
+  z-index:20;
+  position:absolute;
+  top:0;
+  left:0;
+  text-align:center;
+  margin-left: 600px;
+  margin-top: -400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .conte h1 {
+  color:#ff0000;
+  font-family:Arial,sans-serif;
+}
+
+#hero .conte p {
+  font-size:18px;
+  color:#FFF;
+  font-family:Arial,sans-serif;
+}
+#hero .conte .contai {
+  width: 400px;
+  height: 750px;
+  margin-top: 700px;
+  margin-left: 870px;
+  border: 1px solid #FFF ;
+  border-radius: 10px;
+  background:rgba(0,0,0,0.5);
+}
+#hero .cont h1 {
+  color:#ff0000;
+  font-family:Arial,sans-serif;
+}
+
+#hero .cont p {
+  font-size:18px;
+  color:#FFF;
+  font-family:Arial,sans-serif;
+}
+#hero .cont {
+  
+  height:100%;
+  width:100%;
+  z-index:20;
+  position:absolute;
+  top:0;
+  left:0;
+  text-align:center;
+  margin-left: -850px;
+  margin-top: -400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .cont .conta {
+  width: 400px;
+  height: 750px;
+  margin-top: 700px;
+  margin-left: 250px;
+  border: 1px solid #FFF ;
+  border-radius: 10px;
+  background:rgba(0,0,0,0.5);
+}
